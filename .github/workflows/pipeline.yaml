@@ -54,4 +54,4 @@ jobs:
           STATIC_SITE_CONTAINERIZER_REGISTRY_USERNAME: ${{ secrets.STATIC_SITE_CONTAINERIZER_REGISTRY_USERNAME }}
           STATIC_SITE_CONTAINERIZER_REGISTRY_PASSWORD: ${{ secrets.STATIC_SITE_CONTAINERIZER_REGISTRY_PASSWORD }}
         run: |          
-          poetry run static-site-containerizer --content rust-web-rcon --tag pfeiffermax/rust-web-rcon:${GIT_TAG_NAME} --platform linux/amd64 --platform linux/arm64 --push
+          poetry run static-site-containerizer --content rust-web-rcon --tag "pfeiffermax/rust-web-rcon:$GIT_TAG_NAME" --platform linux/amd64 --platform linux/arm64 --push
