@@ -1,6 +1,6 @@
 [project]
 name = "rust-web-rcon"
-version = "0.1.0"
+version = "0.2.0"
 description = ""
 authors = [
     {name = "Max Pfeiffer",email = "max@maxpfeiffer.ch"}
@@ -9,13 +9,17 @@ license = {text = "MIT"}
 readme = "README.md"
 requires-python = ">=3.12,<4.0"
 dependencies = [
-    "static-site-containerizer==0.1.0"
+    "static-site-containerizer==0.2.1"
 ]
 
 [tool.poetry]
 
 [tool.poetry.group.dev.dependencies]
+bcrypt = "4.3.0"
+pre-commit = "4.2.0"
 pytest = "8.3.5"
+pytest-cov = "6.1.1"
+testcontainers = "4.10.0"
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
