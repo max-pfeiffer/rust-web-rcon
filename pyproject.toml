@@ -15,10 +15,11 @@ dependencies = [
 [tool.poetry]
 
 [tool.poetry.group.dev.dependencies]
-pytest = "8.3.5"
-testcontainers = "4.10.0"
-pre-commit = "4.2.0"
 bcrypt = "4.3.0"
+pre-commit = "4.2.0"
+pytest = "8.3.5"
+pytest-cov = "6.1.1"
+testcontainers = "4.10.0"
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
