@@ -39,7 +39,9 @@ jobs:
   publish-image:
     runs-on: ubuntu-24.04
     if: startsWith(github.ref, 'refs/tags/')
-    needs: code-quality
+    needs:
+      - code-quality
+      - test-image-build
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
