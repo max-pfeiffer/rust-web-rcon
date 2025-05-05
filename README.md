@@ -8,6 +8,6 @@ linux/amd64 and linux/arm64 architectures.
 ## Usage
 Run the Docker image like this:
 ```shell
-docker run --rm -it --publish 80:80 rust-web-rcon:latest
+docker run --rm -it --publish 80:80 pfeiffermax/rust-web-rcon:latest
 ```
 Then point your browser to `http://localhost`.
