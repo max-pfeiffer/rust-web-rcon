@@ -1,6 +1,6 @@
 apiVersion: v2
 name: rust-web-rcon
-description: "A websocket Rcon client for a Rust dedicated server"
+description: "Websocket Rcon client for a Rust dedicated server"
 
 # A chart can be either an 'application' or a 'library' chart.
 #
