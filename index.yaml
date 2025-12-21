@@ -3,6 +3,16 @@ entries:
   rust-web-rcon:
   - apiVersion: v2
     appVersion: 1.0.0
+    created: "2025-12-21T13:36:33.643835837Z"
+    description: Websocket Rcon client for a Rust dedicated server
+    digest: accb8c43e7ca6e7a4f5d74fce67a1969812528b0bf194179725fda1238ce8e17
+    name: rust-web-rcon
+    type: application
+    urls:
+    - https://github.com/max-pfeiffer/rust-web-rcon/releases/download/rust-web-rcon-0.2.0/rust-web-rcon-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
+    appVersion: 1.0.0
     created: "2025-05-09T06:51:56.629332226Z"
     description: Websocket Rcon client for a Rust dedicated server
     digest: b99e97e04c28c5a99d73cdbc5427ff2585acd029146abce727ece7c03ad5b8d4
@@ -11,4 +21,4 @@ entries:
     urls:
     - https://github.com/max-pfeiffer/rust-web-rcon/releases/download/rust-web-rcon-0.1.0/rust-web-rcon-0.1.0.tgz
     version: 0.1.0
-generated: "2025-05-09T06:51:56.629344689Z"
+generated: "2025-12-21T13:36:33.643844503Z"
