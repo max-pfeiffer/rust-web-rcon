@@ -19,6 +19,6 @@ Then point your browser to `http://localhost`.
 ## Helm Chart
 The installation is done as follows:
 ```shell
-$ helm repo add rust https://max-pfeiffer.github.io/rust-web-rcon
+$ helm repo add rust-web-rcon https://max-pfeiffer.github.io/rust-web-rcon
 $ helm install rust-web-rcon rust-web-rcon/rust-web-rcon --values your_values.yaml --namespace yournamespace 
 ```
